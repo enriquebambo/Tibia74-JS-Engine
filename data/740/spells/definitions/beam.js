@@ -11,12 +11,12 @@ module.exports = function beamEnergy() {
 
     let position = this.__getSpellPosition(0, -i);
     
-    process.gameServer.world.sendMagicEffect(
+    process.process.gameServer.world.sendMagicEffect(
       position,
       CONST.EFFECT.MAGIC.ENERGYHIT
     );
     
-    let tile = process.gameServer.world.getTileFromWorldPosition(position);
+    let tile = process.process.gameServer.world.getTileFromWorldPosition(position);
     
     if(tile === null) {
       continue;
@@ -26,12 +26,12 @@ module.exports = function beamEnergy() {
 
       let damage = Number.prototype.random(0, 3);
 
-      process.gameServer.world.__damageEntity(source, player, damage, CONST.COLOR.LIGHTBLUE);
+      process.process.gameServer.world.__damageEntity(source, player, damage, CONST.COLOR.LIGHTBLUE);
 
     });
 
   }
 
-  return 50;
+  return 1000;
 
 }

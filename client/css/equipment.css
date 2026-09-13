@@ -94,6 +94,37 @@
   flex: 0 0 auto;
 }
 
+.war-hud {
+  width: 100%;
+  margin-top: 6px;
+  background-image: url("/png/bg3.png");
+  border: 1px solid black;
+  padding: 6px;
+  color: white;
+  font-size: 11px;
+}
+
+.war-hud-header {
+  text-align: center;
+  color: gold;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.war-hud-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.war-hud-row span:first-child {
+  color: #dddddd;
+}
+
+.war-hud-row span:last-child {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 #head-slot {
   background-image: url("/png/head.png");
 }

@@ -382,11 +382,17 @@
             <div class="modal-header">Information</div>
             <div class="modal-body" style="text-align: center; max-width: 500px;">
               <p> Tibia Game Client and Game Server written in NodeJS/JavaScript.
-              <hr>
-              <img src="png/forby.png" style="width: 68px; heigiht: 68px;"></img>
-              <hr>
-              Load the required <b>Tibia.spr</b> and <b>Tibia.dat</b> files by clicking Load Assets. The asset versions must match the server version and both client/server support versions 7.4 and 10.98 but nothing in between.
-              <p> Copyright by Forby, 2019 - 2022
+                      <hr>
+                      <img src="png/forby.png" style="width: 68px; heigiht: 68px;"></img>
+                      <hr>
+                      Load the required <b>Tibia.spr</b> and <b>Tibia.dat</b> files by clicking Load Assets. The asset versions must match the server version and both client/server support versions 7.4 and 10.98 but nothing in between.
+                      <p>
+                        <b>WARNIBIA MINI-WAR</b><br>
+                        Instant PvP | Arena Rotation | War Stats | Leaderboard<br>
+                        Server: <code>127.0.0.1:2222</code><br>
+                        Commands: <code>/map</code> <code>/stats</code> <code>/leaderboard</code> <code>/top</code>
+                      </p>
+                      <p> Copyright by Forby, 2019 - 2022
               <hr>
               <div class="modal-footer">
                 <button action="confirm">Close</button>
@@ -941,7 +947,17 @@
               </div>
           
             <div id="status-bar" class="status-bar"></div>
-            
+
+            <div id="war-hud" class="war-hud">
+              <div class="war-hud-header">WAR</div>
+              <div class="war-hud-row"><span>Arena</span><span id="war-hud-arena">-</span></div>
+              <div class="war-hud-row"><span>Rotation</span><span id="war-hud-rotation">-</span></div>
+              <div class="war-hud-row"><span>Protection</span><span id="war-hud-protection">-</span></div>
+              <div class="war-hud-row"><span>Kills</span><span id="war-hud-kills">0</span></div>
+              <div class="war-hud-row"><span>Deaths</span><span id="war-hud-deaths">0</span></div>
+              <div class="war-hud-row"><span>Streak</span><span id="war-hud-streak">0</span></div>
+            </div>
+
             </div>
             
             <div class="equipment-buttons">
@@ -1090,6 +1106,8 @@
   <script src="src/binary-heap.js"></script>
   
   <script src="src/index.js"></script>
+
+  <script src="src/war-hud.js"></script>
 
   <!-- Custom SVG filter for post-processing -->
   <!-- This example filters all colors and truncates green to 0 or 1 -->

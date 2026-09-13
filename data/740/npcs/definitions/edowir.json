@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Edowir",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 130,
+      "details": {
+        "head": 0,
+        "body": 58,
+        "legs": 96,
+        "feet": 95
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 5,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32343,
+      "y": 32363,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

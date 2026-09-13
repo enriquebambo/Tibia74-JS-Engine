@@ -1,0 +1,172 @@
+{
+  "game": {
+    "name": "MINI-WAR",
+    "version": "1.0.0",
+    "description": "Fast PvP-enforced Tibia 7.4 war server"
+  },
+  "characterCreation": {
+    "level": 20,
+    "experience": 98800,
+    "hp": 250,
+    "mana": 200,
+    "magicLevel": 40,
+    "skills": {
+      "melee": 60,
+      "distance": 60,
+      "shielding": 60,
+      "fishing": 0
+    },
+    "capacity": 5000,
+    "movementSpeed": 1020
+  },
+  "spawnProtection": {
+    "enabled": true,
+    "durationSeconds": 5,
+    "message": "You are under spawn protection for {seconds} seconds.",
+    "attackBlockedMessage": "This player is under spawn protection!"
+  },
+  "supplies": {
+    "enabled": true,
+    "refillOnDeath": true,
+    "items": {
+      "suddenDeathRune": { "itemId": 2273, "count": 100 },
+      "ultimateHealingRune": { "itemId": 2274, "count": 100 },
+      "magicWallRune": { "itemId": 2275, "count": 100 },
+      "wildGrowthRune": { "itemId": 2276, "count": 100 },
+      "manaFluid": { "itemId": 2006, "count": 100 },
+      "crystalCoin": { "itemId": 2152, "count": 100 }
+    }
+  },
+  "equipment": {
+    "enabled": true,
+    "autoEquip": true,
+    "items": {
+      "helmet": { "itemId": 3387, "name": "Demon Helmet", "slot": "helmet" },
+      "armor": { "itemId": 3389, "name": "Magic Plate Armor", "slot": "armor" },
+      "legs": { "itemId": 3390, "name": "Crown Legs", "slot": "legs" },
+      "boots": { "itemId": 3391, "name": "Boots of Haste", "slot": "boots" },
+      "shield": { "itemId": 3388, "name": "Demon Shield", "slot": "shield" },
+      "weapon": { "itemId": 3402, "name": "Bright Sword", "slot": "weapon" },
+      "amulet": { "itemId": 3327, "name": "Amulet of Loss", "slot": "necklace" },
+      "backpack": { "itemId": 1998, "name": "Backpack", "slot": "backpack" }
+    }
+  },
+  "formulas": {
+    "suddenDeath": {
+      "enabled": true,
+      "baseDamage": 0,
+      "levelFactor": 0.5,
+      "magicLevelFactor": 2.0,
+      "minDamage": 100,
+      "maxDamage": 600
+    },
+    "ultimateHealing": {
+      "enabled": true,
+      "baseHealing": 0,
+      "levelFactor": 10,
+      "magicLevelFactor": 10,
+      "minHealing": 100,
+      "maxHealing": 800
+    },
+    "weaponDamage": {
+      "enabled": true,
+      "baseMultiplier": 1.0,
+      "skillFactor": 1.0,
+      "armorReduction": 0.5
+    },
+    "spells": {
+      "exura": { "minHealing": 30, "maxHealing": 50, "manaCost": 25 },
+      "exuraGran": { "minHealing": 90, "maxHealing": 150, "manaCost": 40 },
+      "exuraVita": { "minHealing": 250, "maxHealing": 450, "manaCost": 80 },
+      "utaniHur": { "speedBonus": 150, "durationSeconds": 33, "manaCost": 60, "cooldownSeconds": 2 },
+      "utaniGranHur": { "speedBonus": 250, "durationSeconds": 20, "manaCost": 100 },
+      "utamoVita": { "manaCost": 50, "durationSeconds": 200 }
+    },
+    "pvpexp": {
+      "baseExp": 500,
+      "levelRatioDivisor": 1.0,
+      "killStreakBonus": {
+        "whiteSkull": 1.5,
+        "redSkull": 2.0,
+        "blackSkull": 3.0
+      }
+    }
+  },
+  "killStreak": {
+    "enabled": true,
+    "whiteSkullKills": 3,
+    "redSkullKills": 5,
+    "blackSkullKills": 10
+  },
+  "arena": {
+    "rotationDurationMinutes": 30,
+    "rotationAnnounceMinutes": [5, 1],
+    "arenas": {
+      "thais": {
+        "name": "Thais",
+        "spawns": [
+          { "x": 32369, "y": 32241, "z": 8 },
+          { "x": 32388, "y": 32238, "z": 8 },
+          { "x": 32355, "y": 32215, "z": 8 }
+        ]
+      },
+      "carlin": {
+        "name": "Carlin",
+        "spawns": [
+          { "x": 32360, "y": 31782, "z": 8 },
+          { "x": 32344, "y": 31782, "z": 8 },
+          { "x": 32355, "y": 31810, "z": 8 }
+        ]
+      },
+      "venore": {
+        "name": "Venore",
+        "spawns": [
+          { "x": 32957, "y": 32076, "z": 8 },
+          { "x": 32953, "y": 32070, "z": 8 },
+          { "x": 32935, "y": 32050, "z": 8 }
+        ]
+      },
+      "edron": {
+        "name": "Edron",
+        "spawns": [
+          { "x": 33217, "y": 31814, "z": 8 },
+          { "x": 33210, "y": 31800, "z": 8 },
+          { "x": 33170, "y": 31810, "z": 8 }
+        ]
+      }
+    },
+    "barriers": {
+      "enabled": true,
+      "temporaryBarrierItemId": 2287,
+      "durationMinutes": 120
+    }
+  },
+  "commands": {
+    "map": { "accessLevel": "player", "description": "Show current arena and rotation info" },
+    "mapThais": { "accessLevel": "admin", "aliases": ["map thais"] },
+    "mapCarlin": { "accessLevel": "admin", "aliases": ["map carlin"] },
+    "mapVenore": { "accessLevel": "admin", "aliases": ["map venore"] },
+    "mapEdron": { "accessLevel": "admin", "aliases": ["map edron"] },
+    "mapNext": { "accessLevel": "admin", "aliases": ["map next"] },
+    "speed": { "accessLevel": "admin", "description": "Change movement speed", "usage": "/speed <value>" },
+    "broadcast": { "accessLevel": "admin", "description": "Broadcast red server message", "usage": "/broadcast <message>" },
+    "pos": { "accessLevel": "player", "description": "Show current position" }
+  },
+  "permissions": {
+    "player": 0,
+    "gm": 1,
+    "admin": 2
+  },
+  "pvpenforcement": {
+    "enabled": true,
+    "allowPvP": true,
+    "noRedSkull": true,
+    "noFragLimit": true,
+    "noUnjustifiedKill": true,
+    "noCriminalStatus": true
+  },
+  "timers": {
+    "magicWallSeconds": 20,
+    "wildGrowthSeconds": 45
+  }
+}

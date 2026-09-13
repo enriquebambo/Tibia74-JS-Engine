@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Elvith",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 144,
+      "details": {
+        "head": 76,
+        "body": 3,
+        "legs": 0,
+        "feet": 76
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 1,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32669,
+      "y": 31607,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

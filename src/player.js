@@ -361,12 +361,25 @@ Player.prototype.getCorpse = function() {
 
 }
 
-Player.prototype.handleDeath = function() {
+Player.prototype.handleDeath = function(source) {
 
   /*
    * Function Player.handleDeath
    * Called when the player dies because of zero health
    */
+
+  // Detect killer for PvP
+  let killer = null;
+  if(source && source.isPlayer && source.isPlayer()) {
+    killer = source;
+  }
+
+  // Award PvP experience and update killer stats
+  if(killer) {
+    process.gameServer.world.warnibia.awardPvPExperience(killer, this);
+    process.gameServer.world.warnibia.updateKillStatistics(killer, this);
+    process.gameServer.world.warnibia.broadcastKillAnnouncement(killer, this);
+  }
 
   // Restore the player to full health and mana
   this.setFull(CONST.PROPERTIES.HEALTH);
@@ -374,15 +387,24 @@ Player.prototype.handleDeath = function() {
 
   // Human corpse
   let corpse = gameServer.database.createThing(this.getCorpse());
-
   gameServer.world.addTopThing(this.getPosition(), corpse);
   gameServer.world.addSplash(2016, this.getPosition(), corpse.getFluidType());
 
-  // Set the position
-  gameServer.world.creatureHandler.teleportCreature(this, this.templePosition);
+  // Random war spawn
+  let spawn = process.gameServer.world.warnibia.getRandomSpawn();
+  gameServer.world.creatureHandler.teleportCreature(this, spawn);
 
-  // Disconnect the socket
-  this.socketHandler.disconnect();
+  // Refill PvP supplies
+  process.gameServer.world.warnibia.refillSupplies(this);
+
+  // Apply spawn protection
+  process.gameServer.world.warnibia.applySpawnProtection(this);
+
+  // Allow immediate re-entry into combat
+  this.combatLock.activate();
+
+  // Update death statistics
+  process.gameServer.world.warnibia.updateDeathStatistics(this);
 
 }
 

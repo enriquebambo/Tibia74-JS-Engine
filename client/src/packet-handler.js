@@ -389,6 +389,10 @@ PacketHandler.prototype.handleServerMessage = function(string) {
   // Server messages are always in red
   gameClient.interface.notificationManager.setServerMessage(string, Interface.prototype.COLORS.RED);
 
+  if(gameClient.interface && gameClient.interface.warHud) {
+    gameClient.interface.warHud.parseServerMessage(string);
+  }
+
 }
 
 PacketHandler.prototype.getTileUppie = function(position) {
@@ -928,6 +932,20 @@ PacketHandler.prototype.handleChannelMessage = function(packet) {
 
   // Add the message to the channel
   channel.addMessage(packet.message, 0, packet.name, packet.color);
+
+}
+
+PacketHandler.prototype.handleSpellCast = function(packet) {
+
+  /*
+
+   * Function PacketHandler.handleSpellCast
+
+   * Handles incoming spell cast packet from the server
+
+   */
+
+  gameClient.player.spellbook.serverCastSpell(packet);
 
 }
 

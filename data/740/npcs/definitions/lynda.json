@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Lynda",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 138,
+      "details": {
+        "head": 79,
+        "body": 83,
+        "legs": 86,
+        "feet": 114
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 4,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32333,
+      "y": 32200,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

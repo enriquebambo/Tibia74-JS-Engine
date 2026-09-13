@@ -14,12 +14,12 @@ module.exports = function lifeDrain() {
   let amount = Number.prototype.random(5, 7);
 
   this.increaseHealth(amount);
-  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.MAGIC_GREEN);
+  process.process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.MAGIC_GREEN);
 
 
   this.getTarget().decreaseHealth(this, amount, CONST.COLOR.RED);
-  process.gameServer.world.sendMagicEffect(this.getTarget().position, CONST.EFFECT.MAGIC.MAGIC_RED);
+  process.process.gameServer.world.sendMagicEffect(this.getTarget().position, CONST.EFFECT.MAGIC.MAGIC_RED);
 
-  return 50;
+  return 1000;
 
 }

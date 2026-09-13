@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Dermot",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 129,
+      "details": {
+        "head": 76,
+        "body": 49,
+        "legs": 19,
+        "feet": 95
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 2,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32165,
+      "y": 32437,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

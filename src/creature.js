@@ -175,6 +175,102 @@ Creature.prototype.removeCondition = function(id) {
 
 }
 
+Creature.prototype.increaseHealth = function(amount) {
+
+  /*
+   * Function Creature.increaseHealth
+   * Increases the health of a creature
+   */
+
+  this.incrementProperty(CONST.PROPERTIES.HEALTH, amount);
+
+}
+
+Creature.prototype.increaseMana = function(amount) {
+
+  /*
+   * Function Creature.increaseMana
+   * Increases the mana of a creature
+   */
+
+  this.incrementProperty(CONST.PROPERTIES.MANA, amount);
+
+}
+
+Creature.prototype.addCondition = function(id, ticks, duration, properties) {
+
+  /*
+   * Function Creature.addCondition
+   * Adds a condition to the creature
+   */
+
+  return this.conditions.add(id, ticks, duration, properties);
+
+}
+
+Creature.prototype.hasTarget = function() {
+
+  /*
+   * Function Creature.hasTarget
+   * Returns true if the creature has a target
+   */
+
+  if(this.getTarget === undefined || this.getTarget === null) {
+    return false;
+  }
+
+  let target = this.getTarget();
+
+  return target !== null && target !== undefined && target !== this;
+
+}
+
+Creature.prototype.getTarget = function() {
+
+  /*
+   * Function Creature.getTarget
+   * Returns the target of the creature
+   */
+
+  return null;
+
+}
+
+Creature.prototype.sayEmote = function(message, color) {
+
+  /*
+   * Function Creature.sayEmote
+   * Says an emote message
+   */
+
+  this.speechHandler.sayEmote(message, color);
+
+}
+
+Creature.prototype.getFacePosition = function() {
+
+  /*
+   * Function Creature.getFacePosition
+   * Returns the position the creature is facing
+   */
+
+  let direction = this.getProperty(CONST.PROPERTIES.DIRECTION);
+  return this.position.getPositionFromDirection(direction);
+
+}
+
+Creature.prototype.__getSpellPosition = function(dx, dy) {
+
+  /*
+   * Function Creature.__getSpellPosition
+   * Returns a spell position relative to the creature facing direction
+   */
+
+  let direction = this.getProperty(CONST.PROPERTIES.DIRECTION);
+  return this.position.rotate2D(direction, dx, dy);
+
+}
+
 Creature.prototype.getFluidType = function() {
 
   /*

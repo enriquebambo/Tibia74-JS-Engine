@@ -20,6 +20,9 @@ const GameServer = function() {
    *
    */
 
+  // Warnibia war systems
+  this.warnibia = null;
+
   // Signal interrupt received: gracefully shut down server
   process.on("SIGINT", this.scheduleShutdown.bind(this, CONFIG.SERVER.MS_SHUTDOWN_SCHEDULE));
   process.on("SIGTERM", this.scheduleShutdown.bind(this, CONFIG.SERVER.MS_SHUTDOWN_SCHEDULE));
@@ -64,14 +67,16 @@ GameServer.prototype.isShutdown = function() {
    */
 
   return this.__serverStatus === this.STATUS.CLOSING;
-
 }
 
 GameServer.prototype.initialize = function() {
 
   /*
+
    * Function GameServer.initialize
+
    * Initializes the game server and starts the internal game loop
+
    */
 
   // State variable to keep the current server status
@@ -88,6 +93,11 @@ GameServer.prototype.initialize = function() {
 
   // Listen for incoming connections
   this.HTTPServer.listen();
+
+  // Initialize warnibia systems after the world is ready
+  if(this.world && this.world.warnibia) {
+    this.world.warnibia.initialize(this);
+  }
 
 }
 

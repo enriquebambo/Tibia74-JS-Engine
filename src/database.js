@@ -18,6 +18,7 @@ const ActionLoader = requireModule("database-action-loader");
 const OTBMParser = requireModule("otbm-parser");
 
 const fs = require("fs");
+const path = require("path");
 
 const Database = function() {
 
@@ -448,12 +449,13 @@ Database.prototype.__loadDefinitions = function(definition) {
 
   let reference = new Map();
 
-  Object.entries(this.readDataDefinition(definition)).forEach(function([ key, value ]) {
-    reference.set(Number(key), require(getDataFile(definition, "definitions", value)));
+  let definitions = this.readDataDefinition(definition);
+  Object.entries(definitions).forEach(function([ key, value ]) {
+    let parts = [__dirname, "..", "data", CONFIG.SERVER.CLIENT_VERSION, definition, "definitions", value];
+    reference.set(Number(key), require(path.resolve.apply(path, parts)));
   });
 
-  console.log("Loaded [[ %s ]] %s definitions.".format(Object.keys(reference).length, definition));
-
+  console.log("Loaded [[ %s ]] %s definitions.".format(reference.size, definition));
   return reference;
 
 }

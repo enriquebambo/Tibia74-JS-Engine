@@ -227,6 +227,7 @@ GameClient.prototype.handleAcceptLogin = function(packet) {
   // Show the game interface instead of the login box and close remaining modals
   this.interface.showGameInterface();
   this.interface.modalManager.close();
+  this.interface.warHud = new WarHud();
 
   // Create a new player with a particular server identifier
   this.player = new Player(packet);

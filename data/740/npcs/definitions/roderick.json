@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Roderick",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 130,
+      "details": {
+        "head": 38,
+        "body": 129,
+        "legs": 129,
+        "feet": 19
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 4,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32672,
+      "y": 31699,
+      "z": 6
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

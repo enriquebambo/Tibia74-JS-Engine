@@ -1,13 +1,17 @@
-module.exports = function explosion() {
+module.exports = function explosion(source, target) {
 
   /*
-   * Function beamEnergy
-   * Creature energy beam function
+
+   * Function explosion
+
+   * Creature explosion function
+
    */
 
-  process.gameServer.world.applyEnvironmentalDamage(this, 40, CONST.COLOR.ORANGE);
-  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.HITBYFIRE);
+  process.gameServer.world.applyEnvironmentalDamage(source, 40, CONST.COLOR.ORANGE);
 
-  return 50;
+  process.gameServer.world.sendMagicEffect(source.position, CONST.EFFECT.MAGIC.HITBYFIRE);
 
-}
+  return 1000;
+
+};

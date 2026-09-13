@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Julian",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 128,
+      "details": {
+        "head": 55,
+        "body": 30,
+        "legs": 23,
+        "feet": 115
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 1,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32883,
+      "y": 32076,
+      "z": 6
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

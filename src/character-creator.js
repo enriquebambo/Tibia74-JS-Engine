@@ -11,13 +11,13 @@ const CharacterCreator = function() {
    */
 
   this.blueprint = new Object({
-    "position": new Position(32097, 32215, 8),
-    "templePosition": new Position(32097, 32215, 8),
+    "position": new Position(32369, 32241, 8),
+    "templePosition": new Position(32369, 32241, 8),
     "properties": {
       "vocation": CONST.VOCATION.NONE,
       "role": CONST.ROLES.NONE,
       "sex": CONST.SEX.MALE,
-      "maxCapacity": 2000,
+      "maxCapacity": CONFIG.WARNIBIA.CHARACTER_CREATION.CAPACITY,
       "availableMounts": [],
       "availableOutfits": [],
       "name": "Unknown",
@@ -25,8 +25,8 @@ const CharacterCreator = function() {
       "attackSpeed": 20,
       "defense": 2,
       "direction": CONST.DIRECTION.NORTH,
-      "health": 150,
-      "mana": 35,
+      "health": CONFIG.WARNIBIA.CHARACTER_CREATION.HP,
+      "mana": CONFIG.WARNIBIA.CHARACTER_CREATION.MANA,
       "outfit": new Outfit({
         "id": 0,
         "details": {
@@ -40,28 +40,28 @@ const CharacterCreator = function() {
         "addonOne": false,
         "addonTwo": false
       }),
-      "speed": 1020
+      "speed": CONFIG.WARNIBIA.CHARACTER_CREATION.MOVEMENT_SPEED
     },
     "skills": {
-      "experience": 0,
-      "magic": 0,
+      "experience": CONFIG.WARNIBIA.CHARACTER_CREATION.EXPERIENCE,
+      "magic": CONFIG.WARNIBIA.CHARACTER_CREATION.MAGIC_LEVEL,
       "fist": 10,
       "club": 10,
       "sword": 10,
       "axe": 10,
-      "distance": 10,
-      "shielding": 10,
-      "fishing": 10
+      "distance": CONFIG.WARNIBIA.CHARACTER_CREATION.SKILLS.distance,
+      "shielding": CONFIG.WARNIBIA.CHARACTER_CREATION.SKILLS.shielding,
+      "fishing": CONFIG.WARNIBIA.CHARACTER_CREATION.SKILLS.fishing
     },
     "spellbook": {
-      "availableSpells": [],
+      "availableSpells": [2, 8, 9, 10, 11, 12, 13, 14, 15],
       "cooldowns": []
     },
     "containers": {
       "keyring": [],
       "depot": [],
       "inbox": [],
-      "equipment": [{"slot": 6, "item": {"id": 1988}}],
+      "equipment": []
     },
     "friends": []
   });

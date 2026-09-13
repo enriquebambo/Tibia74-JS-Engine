@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Memech",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 131,
+      "details": {
+        "head": 21,
+        "body": 21,
+        "legs": 40,
+        "feet": 116
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 2,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 33135,
+      "y": 32810,
+      "z": 6
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

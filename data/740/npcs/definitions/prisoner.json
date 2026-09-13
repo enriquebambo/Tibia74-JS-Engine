@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "A Prisoner",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 130,
+      "details": {
+        "head": 81,
+        "body": 40,
+        "legs": 55,
+        "feet": 94
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 2,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32393,
+      "y": 32137,
+      "z": 13
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

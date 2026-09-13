@@ -5,10 +5,10 @@ module.exports = function Hearthstone(properties) {
    * Teleports the player to his/her temple position
    */
 
-  gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.POFF);
-  gameServer.world.creatureHandler.teleportCreature(this, this.characterStatistics.templePosition);
-  gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.TELEPORT);
+  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.POFF);
+  process.gameServer.world.creatureHandler.teleportCreature(this, this.characterStatistics.templePosition);
+  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.TELEPORT);
 
-  return 100;
+  return 1000;
 
 }

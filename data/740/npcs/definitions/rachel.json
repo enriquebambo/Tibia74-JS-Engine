@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Rachel",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 136,
+      "details": {
+        "head": 58,
+        "body": 84,
+        "legs": 86,
+        "feet": 114
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 1,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32343,
+      "y": 31828,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

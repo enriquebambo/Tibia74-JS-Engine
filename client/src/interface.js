@@ -124,6 +124,12 @@ Interface.prototype.SPELLS.set(5, {"name": "Parva Lux", "description": "Surround
 Interface.prototype.SPELLS.set(7, {"name": "Hearthstone", "description": "Teleport yourself to the temple.", "icon": {"x": 3, "y": 3}});
 Interface.prototype.SPELLS.set(8, {"name": "Velocitas", "description": "Increases your movement speed", "icon": {"x": 4, "y": 8}});
 Interface.prototype.SPELLS.set(9, {"name": "Levitate", "description": "Move up or down a mountain", "icon": {"x": 4, "y": 10}});
+Interface.prototype.SPELLS.set(10, {"name": "Exura Gran", "description": "Strong Healing", "icon": {"x": 2, "y": 1}});
+Interface.prototype.SPELLS.set(11, {"name": "Exura Vita", "description": "Ultimate Healing", "icon": {"x": 2, "y": 2}});
+Interface.prototype.SPELLS.set(12, {"name": "Utani Hur", "description": "Haste", "icon": {"x": 4, "y": 8}});
+Interface.prototype.SPELLS.set(13, {"name": "Utani Gran Hur", "description": "Strong Haste", "icon": {"x": 4, "y": 9}});
+Interface.prototype.SPELLS.set(14, {"name": "Utamo Vita", "description": "Magic Shield", "icon": {"x": 5, "y": 7}});
+Interface.prototype.SPELLS.set(15, {"name": "Exori", "description": "Light Strike", "icon": {"x": 1, "y": 0}});
 
 Interface.prototype.getSpell = function(id) {
 

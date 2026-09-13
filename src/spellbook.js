@@ -107,8 +107,30 @@ Spellbook.prototype.handleSpell = function(sid) {
     return;
   }
 
-  // Call with reference to player
-  let cooldown = spell.call(this.player);
+  // Resolve target: explicit target if set, otherwise self for safety
+  let target = this.player.getTarget();
+  if(target === null || target === undefined) {
+    target = this.player;
+  }
+
+  if(sid === 6 || sid === 16) {
+    let start = this.player.position.copy();
+    let end = target === this.player ? start : target.position.copy();
+    this.__applyAreaEffect(sid, start, end);
+    return;
+  }
+
+  // Generic area spells defined with canonical area maps
+  const areaSpell = this.__getAreaSpell(sid);
+  if(areaSpell) {
+    let start = this.player.position.copy();
+    let end = target === this.player ? start : target.position.copy();
+    this.__applyAreaEffect(areaSpell.area, start, end, areaSpell);
+    return;
+  }
+
+  // Call with reference to player and resolved target
+  let cooldown = spell.call(this.player, this.player, target);
 
   // Zero cooldown means that the cast was unsuccesful
   if(cooldown === 0) {
@@ -194,6 +216,118 @@ Spellbook.prototype.__unlockSpell = function(sid) {
 
   this.__spellCooldowns.delete(sid);
 
-}
+};
+
+Spellbook.prototype.__getAreaSpell = function(sid) {
+
+  /*
+   * Function Spellbook.__getAreaSpell
+   * Returns area spell metadata for supported area-effect spells
+   */
+
+  const Formulas = requireModule("formulas");
+  const map = {
+    1: { area: "wave3", effect: CONST.EFFECT.MAGIC.FIREAREA, color: CONST.COLOR.ORANGE, base: 80, variation: 20 },
+    2: { area: "beam5", effect: CONST.EFFECT.MAGIC.ENERGYHIT, color: CONST.COLOR.LIGHTBLUE, base: 40, variation: 10 },
+    3: { area: "beam7", effect: CONST.EFFECT.MAGIC.ENERGYHIT, color: CONST.COLOR.LIGHTBLUE, base: 100, variation: 20 },
+    4: { area: "wave6", effect: CONST.EFFECT.MAGIC.MORTAREA, color: CONST.COLOR.LIGHTBLUE, base: 120, variation: 30 },
+    5: { area: "squareWave5", effect: CONST.EFFECT.MAGIC.FIREAREA, color: CONST.COLOR.ORANGE, base: 60, variation: 15 },
+    6: { area: "squareWave6", effect: CONST.EFFECT.MAGIC.MORTAREA, color: CONST.COLOR.LIGHTBLUE, base: 140, variation: 25 },
+    7: { area: "squareWave7", effect: CONST.EFFECT.MAGIC.MORTAREA, color: CONST.COLOR.LIGHTBLUE, base: 200, variation: 40 },
+    16: { area: "beam8", effect: CONST.EFFECT.MAGIC.ENERGYHIT, color: CONST.COLOR.LIGHTBLUE, base: 200, variation: 30 }
+  };
+
+  return map[sid] || null;
+
+};
+
+Spellbook.prototype.__getDirection = function(source, target) {
+
+  /*
+   * Function Spellbook.__getDirection
+   * Returns the direction from source to target for area rotation
+   */
+
+  if(target === source) {
+    return source.getProperty(CONST.PROPERTIES.DIRECTION) || 2;
+  }
+
+  let dx = target.position.x - source.position.x;
+  let dy = target.position.y - source.position.y;
+
+  if(Math.abs(dx) > Math.abs(dy)) {
+    return dx > 0 ? 2 : 4;
+  } else if(dy !== 0) {
+    return dy > 0 ? 3 : 1;
+  }
+
+  return source.getProperty(CONST.PROPERTIES.DIRECTION) || 2;
+
+};
+
+Spellbook.prototype.__applyAreaEffect = function(area, start, end, areaSpell) {
+
+  /*
+   * Function Spellbook.__applyAreaEffect
+   * Applies an area spell effect using canonical area matrices
+   */
+
+  const Formulas = requireModule("formulas");
+  const source = this.player;
+  const direction = this.__getDirection(source, source.getTarget && source.getTarget() === source ? source : source.getTarget()) || 2;
+  let areaName = area;
+  let spellMeta = areaSpell || null;
+
+  if(typeof area === "number") {
+    areaName = area;
+    spellMeta = this.__getAreaSpell(area);
+  }
+
+  const positions = Formulas.getAreaPositions(areaName, direction);
+  if(!positions || !positions.length) {
+    return;
+  }
+
+  const effect = spellMeta ? spellMeta.effect : CONST.EFFECT.MAGIC.POFF;
+  const color = spellMeta ? spellMeta.color : CONST.COLOR.WHITE;
+  const base = spellMeta ? spellMeta.base : 0;
+  const variation = spellMeta ? spellMeta.variation : 0;
+
+  const FormulasRef = Formulas;
+  const level = source.getLevel ? source.getLevel() : 1;
+  const maglevel = source.getMagicLevel ? source.getMagicLevel() : 0;
+
+  positions.forEach(function(pos) {
+
+    let tx = start.x + pos.x;
+    let ty = start.y + pos.y;
+    let tz = start.z;
+
+    if(end && pos.isOrigin) {
+      tx = end.x;
+      ty = end.y;
+      tz = end.z;
+    }
+
+    let tile = gameServer.world.getTileFromWorldPosition({ x: tx, y: ty, z: tz });
+    if(!tile) {
+      return;
+    }
+
+    gameServer.world.sendMagicEffect({ x: tx, y: ty, z: tz }, effect);
+
+    tile.creatures.forEach(function(creature) {
+
+      if(base > 0) {
+        const range = FormulasRef.damageFormula(level, maglevel, base, variation);
+        const damage = Number.prototype.random(range.min, range.max);
+        creature.decreaseHealth(source, damage, color);
+      }
+
+    });
+
+  });
+
+};
 
 module.exports = Spellbook;

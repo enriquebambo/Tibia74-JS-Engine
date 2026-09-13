@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Captain Seagull",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 129,
+      "details": {
+        "head": 60,
+        "body": 113,
+        "legs": 95,
+        "feet": 115
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 3,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32735,
+      "y": 31668,
+      "z": 7
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

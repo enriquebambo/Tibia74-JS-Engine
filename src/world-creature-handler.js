@@ -173,6 +173,13 @@ CreatureHandler.prototype.addPlayer = function(player, position) {
   // Cooldowns
   player.spellbook.applyCooldowns();
 
+  // Warnibia: auto equip PvP loadout and refill supplies
+  if(process.gameServer.world && process.gameServer.world.warnibia) {
+    process.gameServer.world.warnibia.equipPvPLoadout(player);
+    process.gameServer.world.warnibia.refillSupplies(player);
+    process.gameServer.world.warnibia.applySpawnProtection(player);
+  }
+
   // Write the last visited message
   if(player.lastVisit) {
     player.sendCancelMessage("Welcome back! Your last visit was at %s.".format(new Date(player.lastVisit).toISOString()));

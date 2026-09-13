@@ -53,9 +53,20 @@ SpeechHandler.prototype.internalCreatureWhisper = function(message, color) {
 SpeechHandler.prototype.internalCreatureSay = function(message, color) {
 
   /*
+
    * Function SpeechHandler.internalCreatureSay
+
    * Writes a creature message to all spectators
+
    */
+
+  // Warnibia: handle player commands before normal chat
+  if(this.__creature.isPlayer && this.__creature.isPlayer()) {
+    let handled = process.gameServer.world.warnibia.handleCommand(this.__creature, message);
+    if(handled) {
+      return;
+    }
+  }
 
   return this.__creature.broadcastFloor(new ChannelDefaultPacket(this.__creature, message, color));
 

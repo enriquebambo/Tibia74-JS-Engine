@@ -1,10 +1,5 @@
-const Condition = requireModule("condition");
-
-module.exports = function morph(properties) {
-
-  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.MAGIC_GREEN);
-  this.addCondition(Condition.prototype.HASTE, 1, 100);
-
+module.exports = function haste(source, target) {
+  source.addCondition(Condition.prototype.HASTE, 30000, 30);
+  process.gameServer.world.sendMagicEffect(source.position, CONST.EFFECT.MAGIC.MAGIC_GREEN);
   return 100;
-
-}
+};

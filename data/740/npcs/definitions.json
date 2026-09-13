@@ -1,11 +1,3071 @@
 {
-  "cipfried": {
+  "adrenius": {
     "position": {
-      "x": 32097,
-      "y": 32219,
+      "x": 32660,
+      "y": 32112,
       "z": 8
     },
     "enabled": true,
+    "definition": "adrenius.json"
+  },
+  "ahmet": {
+    "position": {
+      "x": 33126,
+      "y": 32810,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ahmet.json"
+  },
+  "albert": {
+    "position": {
+      "x": 33312,
+      "y": 31762,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "albert.json"
+  },
+  "aldee": {
+    "position": {
+      "x": 32063,
+      "y": 32180,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "aldee.json"
+  },
+  "aldo": {
+    "position": {
+      "x": 32953,
+      "y": 32110,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "aldo.json"
+  },
+  "alesar": {
+    "position": {
+      "x": 33048,
+      "y": 32621,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "alesar.json"
+  },
+  "alexander": {
+    "position": {
+      "x": 33256,
+      "y": 31839,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "alexander.json"
+  },
+  "alia": {
+    "position": {
+      "x": 32360,
+      "y": 31785,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "alia.json"
+  },
+  "allen": {
+    "position": {
+      "x": 32991,
+      "y": 32062,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "allen.json"
+  },
+  "alwin": {
+    "position": {
+      "x": 32875,
+      "y": 32125,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "alwin.json"
+  },
+  "amanda": {
+    "position": {
+      "x": 33222,
+      "y": 31814,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "amanda.json"
+  },
+  "amber": {
+    "position": {
+      "x": 32103,
+      "y": 32182,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "amber.json"
+  },
+  "anerui": {
+    "position": {
+      "x": 32669,
+      "y": 31659,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "anerui.json"
+  },
+  "aneus": {
+    "position": {
+      "x": 32426,
+      "y": 31666,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "aneus.json"
+  },
+  "angelina": {
+    "position": {
+      "x": 32635,
+      "y": 32402,
+      "z": 10
+    },
+    "enabled": true,
+    "definition": "angelina.json"
+  },
+  "angus": {
+    "position": {
+      "x": 32670,
+      "y": 32730,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "angus.json"
+  },
+  "apparition": {
+    "position": {
+      "x": 32204,
+      "y": 31788,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "apparition.json"
+  },
+  "arito": {
+    "position": {
+      "x": 33069,
+      "y": 32886,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "arito.json"
+  },
+  "arkhothep": {
+    "position": {
+      "x": 33150,
+      "y": 32842,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "arkhothep.json"
+  },
+  "arnold": {
+    "position": {
+      "x": 32945,
+      "y": 32070,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "arnold.json"
+  },
+  "aruda": {
+    "position": {
+      "x": 32368,
+      "y": 32215,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "aruda.json"
+  },
+  "ashtamor": {
+    "position": {
+      "x": 32958,
+      "y": 32088,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ashtamor.json"
+  },
+  "asima": {
+    "position": {
+      "x": 33220,
+      "y": 32404,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "asima.json"
+  },
+  "asrak": {
+    "position": {
+      "x": 32932,
+      "y": 32074,
+      "z": 11
+    },
+    "enabled": true,
+    "definition": "asrak.json"
+  },
+  "avar": {
+    "position": {
+      "x": 33250,
+      "y": 31764,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "avar.json"
+  },
+  "azil": {
+    "position": {
+      "x": 33217,
+      "y": 32431,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "azil.json"
+  },
+  "baaleal": {
+    "position": {
+      "x": 33048,
+      "y": 32620,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "baaleal.json"
+  },
+  "bambi": {
+    "position": {
+      "x": 32341,
+      "y": 31749,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "bambi.json"
+  },
+  "bansheequeen": {
+    "position": {
+      "x": 32260,
+      "y": 31863,
+      "z": 14
+    },
+    "enabled": true,
+    "definition": "bansheequeen.json"
+  },
+  "barbara": {
+    "position": {
+      "x": 32320,
+      "y": 31752,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "barbara.json"
+  },
+  "bashira": {
+    "position": {
+      "x": 32669,
+      "y": 31655,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "bashira.json"
+  },
+  "basilisk": {
+    "position": {
+      "x": 32641,
+      "y": 31943,
+      "z": 15
+    },
+    "enabled": true,
+    "definition": "basilisk.json"
+  },
+  "baxter": {
+    "position": {
+      "x": 32322,
+      "y": 32188,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "baxter.json"
+  },
+  "beatrice": {
+    "position": {
+      "x": 33214,
+      "y": 31803,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "beatrice.json"
+  },
+  "beholder": {
+    "position": {
+      "x": 32788,
+      "y": 31690,
+      "z": 13
+    },
+    "enabled": true,
+    "definition": "beholder.json"
+  },
+  "benjamin": {
+    "position": {
+      "x": 32350,
+      "y": 32219,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "benjamin.json"
+  },
+  "bezil": {
+    "position": {
+      "x": 32657,
+      "y": 31909,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "bezil.json"
+  },
+  "bigben": {
+    "position": {
+      "x": 32697,
+      "y": 31674,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "bigben.json"
+  },
+  "billy": {
+    "position": {
+      "x": 32037,
+      "y": 32205,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "billy.json"
+  },
+  "blacksmith": {
+    "position": {
+      "x": 32632,
+      "y": 31906,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "blacksmith.json"
+  },
+  "blindorc": {
+    "position": {
+      "x": 32102,
+      "y": 32130,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "blindorc.json"
+  },
+  "blindprophet": {
+    "position": {
+      "x": 33022,
+      "y": 32604,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "blindprophet.json"
+  },
+  "blood": {
+    "position": {
+      "x": 32342,
+      "y": 32184,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "blood.json"
+  },
+  "blossom": {
+    "position": {
+      "x": 32390,
+      "y": 31787,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "blossom.json"
+  },
+  "bonifacius": {
+    "position": {
+      "x": 33165,
+      "y": 31801,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "bonifacius.json"
+  },
+  "boozer": {
+    "position": {
+      "x": 32921,
+      "y": 32068,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "boozer.json"
+  },
+  "boques": {
+    "position": {
+      "x": 33101,
+      "y": 32520,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "boques.json"
+  },
+  "borkas": {
+    "position": {
+      "x": 32992,
+      "y": 32068,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "borkas.json"
+  },
+  "bozo": {
+    "position": {
+      "x": 32313,
+      "y": 32183,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "bozo.json"
+  },
+  "brasith": {
+    "position": {
+      "x": 32692,
+      "y": 31589,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "brasith.json"
+  },
+  "brengus": {
+    "position": {
+      "x": 32634,
+      "y": 32747,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "brengus.json"
+  },
+  "brewster": {
+    "position": {
+      "x": 32595,
+      "y": 32744,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "brewster.json"
+  },
+  "briasol": {
+    "position": {
+      "x": 32635,
+      "y": 31667,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "briasol.json"
+  },
+  "brodrosch": {
+    "position": {
+      "x": 32661,
+      "y": 31957,
+      "z": 15
+    },
+    "enabled": true,
+    "definition": "brodrosch.json"
+  },
+  "bruno": {
+    "position": {
+      "x": 32486,
+      "y": 31604,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "bruno.json"
+  },
+  "budrik": {
+    "position": {
+      "x": 32524,
+      "y": 31906,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "budrik.json"
+  },
+  "bunny": {
+    "position": {
+      "x": 32315,
+      "y": 31756,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "bunny.json"
+  },
+  "busty": {
+    "position": {
+      "x": 32294,
+      "y": 31791,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "busty.json"
+  },
+  "captainbluebear": {
+    "position": {
+      "x": 32310,
+      "y": 32210,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captainbluebear.json"
+  },
+  "captainfearless": {
+    "position": {
+      "x": 32958,
+      "y": 32021,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captainfearless.json"
+  },
+  "captaingreyhound": {
+    "position": {
+      "x": 32388,
+      "y": 31822,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captaingreyhound.json"
+  },
+  "captainseagull": {
+    "position": {
+      "x": 32735,
+      "y": 31668,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captainseagull.json"
+  },
+  "captainseahorse": {
+    "position": {
+      "x": 33176,
+      "y": 31764,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captainseahorse.json"
+  },
+  "captainsinbeard": {
+    "position": {
+      "x": 33094,
+      "y": 32884,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "captainsinbeard.json"
+  },
+  "carina": {
+    "position": {
+      "x": 33015,
+      "y": 32048,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "carina.json"
+  },
+  "charles": {
+    "position": {
+      "x": 32529,
+      "y": 32785,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "charles.json"
+  },
+  "chatterbone": {
+    "position": {
+      "x": 32981,
+      "y": 32080,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "chatterbone.json"
+  },
+  "chemar": {
+    "position": {
+      "x": 33270,
+      "y": 32439,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "chemar.json"
+  },
+  "chephan": {
+    "position": {
+      "x": 32890,
+      "y": 32077,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "chephan.json"
+  },
+  "chester": {
+    "position": {
+      "x": 32348,
+      "y": 32184,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "chester.json"
+  },
+  "christoph": {
+    "position": {
+      "x": 32885,
+      "y": 32031,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "christoph.json"
+  },
+  "chrystal": {
+    "position": {
+      "x": 33174,
+      "y": 31811,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "chrystal.json"
+  },
+  "cipfried": {
+    "position": {
+      "x": 32097,
+      "y": 32217,
+      "z": 7
+    },
+    "enabled": true,
     "definition": "cipfried.json"
+  },
+  "clark": {
+    "position": {
+      "x": 32636,
+      "y": 32796,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "clark.json"
+  },
+  "clyde": {
+    "position": {
+      "x": 32573,
+      "y": 32753,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "clyde.json"
+  },
+  "cobra": {
+    "position": {
+      "x": 33366,
+      "y": 32855,
+      "z": 14
+    },
+    "enabled": true,
+    "definition": "cobra.json"
+  },
+  "cornelia": {
+    "position": {
+      "x": 32334,
+      "y": 31796,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "cornelia.json"
+  },
+  "costello": {
+    "position": {
+      "x": 32180,
+      "y": 31936,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "costello.json"
+  },
+  "crone": {
+    "position": {
+      "x": 33229,
+      "y": 32522,
+      "z": 14
+    },
+    "enabled": true,
+    "definition": "crone.json"
+  },
+  "dabui": {
+    "position": {
+      "x": 33229,
+      "y": 32409,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "dabui.json"
+  },
+  "dagomir": {
+    "position": {
+      "x": 33018,
+      "y": 32047,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "dagomir.json"
+  },
+  "dalbrect": {
+    "position": {
+      "x": 32211,
+      "y": 31756,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "dalbrect.json"
+  },
+  "dallheim": {
+    "position": {
+      "x": 32093,
+      "y": 32180,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "dallheim.json"
+  },
+  "dane": {
+    "position": {
+      "x": 32308,
+      "y": 31838,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "dane.json"
+  },
+  "daniel": {
+    "position": {
+      "x": 33191,
+      "y": 31795,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "daniel.json"
+  },
+  "dario": {
+    "position": {
+      "x": 33156,
+      "y": 32810,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "dario.json"
+  },
+  "demongrd": {
+    "position": {
+      "x": 32854,
+      "y": 32318,
+      "z": 10
+    },
+    "enabled": true,
+    "definition": "demongrd.json"
+  },
+  "demonskeleton": {
+    "position": {
+      "x": 32666,
+      "y": 31676,
+      "z": 15
+    },
+    "enabled": true,
+    "definition": "demonskeleton.json"
+  },
+  "dermot": {
+    "position": {
+      "x": 32165,
+      "y": 32437,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "dermot.json"
+  },
+  "digger": {
+    "position": {
+      "x": 32970,
+      "y": 32087,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "digger.json"
+  },
+  "dixi": {
+    "position": {
+      "x": 32105,
+      "y": 32207,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "dixi.json"
+  },
+  "djema": {
+    "position": {
+      "x": 33101,
+      "y": 32520,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "djema.json"
+  },
+  "don": {
+    "position": {
+      "x": 32391,
+      "y": 32229,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "don.json"
+  },
+  "dove": {
+    "position": {
+      "x": 32919,
+      "y": 32075,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "dove.json"
+  },
+  "duria": {
+    "position": {
+      "x": 32617,
+      "y": 31938,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "duria.json"
+  },
+  "dustrunner": {
+    "position": {
+      "x": 32914,
+      "y": 32076,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "dustrunner.json"
+  },
+  "ebenizer": {
+    "position": {
+      "x": 33175,
+      "y": 31801,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ebenizer.json"
+  },
+  "edala": {
+    "position": {
+      "x": 32698,
+      "y": 31718,
+      "z": 2
+    },
+    "enabled": true,
+    "definition": "edala.json"
+  },
+  "eddy": {
+    "position": {
+      "x": 32168,
+      "y": 32431,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "eddy.json"
+  },
+  "edoch": {
+    "position": {
+      "x": 33232,
+      "y": 32430,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "edoch.json"
+  },
+  "edowir": {
+    "position": {
+      "x": 32343,
+      "y": 32363,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "edowir.json"
+  },
+  "edvard": {
+    "position": {
+      "x": 33229,
+      "y": 31831,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "edvard.json"
+  },
+  "elane": {
+    "position": {
+      "x": 32343,
+      "y": 32239,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "elane.json"
+  },
+  "elathriel": {
+    "position": {
+      "x": 32684,
+      "y": 31671,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "elathriel.json"
+  },
+  "elfguard": {
+    "position": {
+      "x": 32642,
+      "y": 31709,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "elfguard.json"
+  },
+  "elvith": {
+    "position": {
+      "x": 32669,
+      "y": 31607,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "elvith.json"
+  },
+  "eremo": {
+    "position": {
+      "x": 33322,
+      "y": 31883,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "eremo.json"
+  },
+  "eroth": {
+    "position": {
+      "x": 32661,
+      "y": 31685,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "eroth.json"
+  },
+  "etzel": {
+    "position": {
+      "x": 32626,
+      "y": 31917,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "etzel.json"
+  },
+  "eva": {
+    "position": {
+      "x": 32325,
+      "y": 31780,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "eva.json"
+  },
+  "fahradin": {
+    "position": {
+      "x": 33106,
+      "y": 32541,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "fahradin.json"
+  },
+  "falk": {
+    "position": {
+      "x": 33190,
+      "y": 31777,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "falk.json"
+  },
+  "faluae": {
+    "position": {
+      "x": 32660,
+      "y": 31673,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "faluae.json"
+  },
+  "feizuhl": {
+    "position": {
+      "x": 33066,
+      "y": 32886,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "feizuhl.json"
+  },
+  "fenbala": {
+    "position": {
+      "x": 32320,
+      "y": 31755,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "fenbala.json"
+  },
+  "fenech": {
+    "position": {
+      "x": 33131,
+      "y": 32820,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "fenech.json"
+  },
+  "ferks": {
+    "position": {
+      "x": 32634,
+      "y": 32738,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ferks.json"
+  },
+  "ferryman1": {
+    "position": {
+      "x": 32232,
+      "y": 31677,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ferryman1.json"
+  },
+  "ferryman2": {
+    "position": {
+      "x": 32127,
+      "y": 31660,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ferryman2.json"
+  },
+  "ferryman3": {
+    "position": {
+      "x": 32044,
+      "y": 31582,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ferryman3.json"
+  },
+  "ferryman4": {
+    "position": {
+      "x": 32029,
+      "y": 31692,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ferryman4.json"
+  },
+  "ferrymanjack": {
+    "position": {
+      "x": 32186,
+      "y": 31959,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ferrymanjack.json"
+  },
+  "frans": {
+    "position": {
+      "x": 32971,
+      "y": 32080,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "frans.json"
+  },
+  "frodo": {
+    "position": {
+      "x": 32356,
+      "y": 32209,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "frodo.json"
+  },
+  "gabel": {
+    "position": {
+      "x": 33102,
+      "y": 32520,
+      "z": 1
+    },
+    "enabled": true,
+    "definition": "gabel.json"
+  },
+  "gail": {
+    "position": {
+      "x": 32621,
+      "y": 32738,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "gail.json"
+  },
+  "galuna": {
+    "position": {
+      "x": 32342,
+      "y": 32246,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "galuna.json"
+  },
+  "gamel": {
+    "position": {
+      "x": 32337,
+      "y": 32207,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "gamel.json"
+  },
+  "gamon": {
+    "position": {
+      "x": 32408,
+      "y": 32170,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "gamon.json"
+  },
+  "gatekeeper": {
+    "position": {
+      "x": 32035,
+      "y": 32183,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "gatekeeper.json"
+  },
+  "gorn": {
+    "position": {
+      "x": 32377,
+      "y": 32200,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "gorn.json"
+  },
+  "graubart": {
+    "position": {
+      "x": 32489,
+      "y": 31622,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "graubart.json"
+  },
+  "gregor": {
+    "position": {
+      "x": 32407,
+      "y": 32202,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "gregor.json"
+  },
+  "grof": {
+    "position": {
+      "x": 32373,
+      "y": 32184,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "grof.json"
+  },
+  "gundralph": {
+    "position": {
+      "x": 33268,
+      "y": 31849,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "gundralph.json"
+  },
+  "gurbasch": {
+    "position": {
+      "x": 33313,
+      "y": 31989,
+      "z": 15
+    },
+    "enabled": true,
+    "definition": "gurbasch.json"
+  },
+  "habdel": {
+    "position": {
+      "x": 33225,
+      "y": 32434,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "habdel.json"
+  },
+  "hagor": {
+    "position": {
+      "x": 32654,
+      "y": 32151,
+      "z": 10
+    },
+    "enabled": true,
+    "definition": "hagor.json"
+  },
+  "hairycles": {
+    "position": {
+      "x": 32826,
+      "y": 32574,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "hairycles.json"
+  },
+  "halif": {
+    "position": {
+      "x": 33217,
+      "y": 32423,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "halif.json"
+  },
+  "hanna": {
+    "position": {
+      "x": 32407,
+      "y": 32219,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "hanna.json"
+  },
+  "hardek": {
+    "position": {
+      "x": 32272,
+      "y": 32339,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "hardek.json"
+  },
+  "haroun": {
+    "position": {
+      "x": 33108,
+      "y": 32525,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "haroun.json"
+  },
+  "harsky": {
+    "position": {
+      "x": 32312,
+      "y": 32170,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "harsky.json"
+  },
+  "helor": {
+    "position": {
+      "x": 32572,
+      "y": 32753,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "helor.json"
+  },
+  "hl": {
+    "position": {
+      "x": 32643,
+      "y": 32212,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "hl.json"
+  },
+  "hofech": {
+    "position": {
+      "x": 33270,
+      "y": 32441,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "hofech.json"
+  },
+  "hoggle": {
+    "position": {
+      "x": 32537,
+      "y": 32143,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "hoggle.json"
+  },
+  "hugo": {
+    "position": {
+      "x": 32951,
+      "y": 32103,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "hugo.json"
+  },
+  "humgolf": {
+    "position": {
+      "x": 32598,
+      "y": 31880,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "humgolf.json"
+  },
+  "humphrey": {
+    "position": {
+      "x": 32359,
+      "y": 31683,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "humphrey.json"
+  },
+  "hyacinth": {
+    "position": {
+      "x": 32137,
+      "y": 32171,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "hyacinth.json"
+  },
+  "imalas": {
+    "position": {
+      "x": 32334,
+      "y": 31801,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "imalas.json"
+  },
+  "imbul": {
+    "position": {
+      "x": 32558,
+      "y": 32781,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "imbul.json"
+  },
+  "irea": {
+    "position": {
+      "x": 32688,
+      "y": 31610,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "irea.json"
+  },
+  "ironeye": {
+    "position": {
+      "x": 32907,
+      "y": 32116,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "ironeye.json"
+  },
+  "ishebad": {
+    "position": {
+      "x": 33158,
+      "y": 32848,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ishebad.json"
+  },
+  "ishina": {
+    "position": {
+      "x": 33231,
+      "y": 32423,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ishina.json"
+  },
+  "isimov": {
+    "position": {
+      "x": 32653,
+      "y": 31925,
+      "z": 11
+    },
+    "enabled": true,
+    "definition": "isimov.json"
+  },
+  "iwan": {
+    "position": {
+      "x": 33217,
+      "y": 31833,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "iwan.json"
+  },
+  "iwar": {
+    "position": {
+      "x": 32618,
+      "y": 31917,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "iwar.json"
+  },
+  "jakahr": {
+    "position": {
+      "x": 33066,
+      "y": 32876,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "jakahr.json"
+  },
+  "james": {
+    "position": {
+      "x": 33280,
+      "y": 31771,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "james.json"
+  },
+  "jeanclaude": {
+    "position": {
+      "x": 33006,
+      "y": 32053,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "jeanclaude.json"
+  },
+  "jezzara": {
+    "position": {
+      "x": 33126,
+      "y": 32821,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "jezzara.json"
+  },
+  "jimbin": {
+    "position": {
+      "x": 32636,
+      "y": 31886,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "jimbin.json"
+  },
+  "julian": {
+    "position": {
+      "x": 32883,
+      "y": 32076,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "julian.json"
+  },
+  "karl": {
+    "position": {
+      "x": 32318,
+      "y": 31797,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "karl.json"
+  },
+  "kasmir": {
+    "position": {
+      "x": 33212,
+      "y": 32452,
+      "z": 1
+    },
+    "enabled": true,
+    "definition": "kasmir.json"
+  },
+  "kawill": {
+    "position": {
+      "x": 32644,
+      "y": 31969,
+      "z": 12
+    },
+    "enabled": true,
+    "definition": "kawill.json"
+  },
+  "kazzan": {
+    "position": {
+      "x": 33231,
+      "y": 32389,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "kazzan.json"
+  },
+  "kevin": {
+    "position": {
+      "x": 32569,
+      "y": 32018,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "kevin.json"
+  },
+  "king": {
+    "position": {
+      "x": 32311,
+      "y": 32171,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "king.json"
+  },
+  "kroox": {
+    "position": {
+      "x": 32650,
+      "y": 31887,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "kroox.json"
+  },
+  "kruzak": {
+    "position": {
+      "x": 32627,
+      "y": 31923,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "kruzak.json"
+  },
+  "kulag": {
+    "position": {
+      "x": 32287,
+      "y": 32264,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "kulag.json"
+  },
+  "lea": {
+    "position": {
+      "x": 32348,
+      "y": 31828,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "lea.json"
+  },
+  "lector": {
+    "position": {
+      "x": 32351,
+      "y": 31795,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lector.json"
+  },
+  "leedelle": {
+    "position": {
+      "x": 32024,
+      "y": 32196,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "leedelle.json"
+  },
+  "leeland": {
+    "position": {
+      "x": 32883,
+      "y": 32082,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "leeland.json"
+  },
+  "legola": {
+    "position": {
+      "x": 32298,
+      "y": 31784,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "legola.json"
+  },
+  "liane": {
+    "position": {
+      "x": 32332,
+      "y": 31784,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "liane.json"
+  },
+  "lightfoot": {
+    "position": {
+      "x": 32914,
+      "y": 32080,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "lightfoot.json"
+  },
+  "lily": {
+    "position": {
+      "x": 32068,
+      "y": 32225,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lily.json"
+  },
+  "livielle": {
+    "position": {
+      "x": 32982,
+      "y": 32036,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "livielle.json"
+  },
+  "lokur": {
+    "position": {
+      "x": 32647,
+      "y": 31904,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "lokur.json"
+  },
+  "lorbas": {
+    "position": {
+      "x": 32695,
+      "y": 32310,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lorbas.json"
+  },
+  "lorek": {
+    "position": {
+      "x": 32679,
+      "y": 32775,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lorek.json"
+  },
+  "loria": {
+    "position": {
+      "x": 32385,
+      "y": 32131,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "loria.json"
+  },
+  "loui": {
+    "position": {
+      "x": 32014,
+      "y": 32190,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "loui.json"
+  },
+  "lubo": {
+    "position": {
+      "x": 32488,
+      "y": 32119,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lubo.json"
+  },
+  "lugri": {
+    "position": {
+      "x": 32389,
+      "y": 32118,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "lugri.json"
+  },
+  "luna": {
+    "position": {
+      "x": 33254,
+      "y": 31840,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "luna.json"
+  },
+  "lungelen": {
+    "position": {
+      "x": 32303,
+      "y": 32267,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "lungelen.json"
+  },
+  "lynda": {
+    "position": {
+      "x": 32333,
+      "y": 32200,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "lynda.json"
+  },
+  "maealil": {
+    "position": {
+      "x": 32732,
+      "y": 31631,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "maealil.json"
+  },
+  "malor": {
+    "position": {
+      "x": 33044,
+      "y": 32621,
+      "z": 1
+    },
+    "enabled": true,
+    "definition": "malor.json"
+  },
+  "maria": {
+    "position": {
+      "x": 32912,
+      "y": 32082,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "maria.json"
+  },
+  "markwin": {
+    "position": {
+      "x": 32418,
+      "y": 32147,
+      "z": 15
+    },
+    "enabled": true,
+    "definition": "markwin.json"
+  },
+  "marlene": {
+    "position": {
+      "x": 32483,
+      "y": 31624,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "marlene.json"
+  },
+  "marvik": {
+    "position": {
+      "x": 32444,
+      "y": 32213,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "marvik.json"
+  },
+  "maryza": {
+    "position": {
+      "x": 32634,
+      "y": 31889,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "maryza.json"
+  },
+  "mehkesh": {
+    "position": {
+      "x": 33130,
+      "y": 32811,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "mehkesh.json"
+  },
+  "melchior": {
+    "position": {
+      "x": 33143,
+      "y": 32828,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "melchior.json"
+  },
+  "memech": {
+    "position": {
+      "x": 33135,
+      "y": 32810,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "memech.json"
+  },
+  "mirabell": {
+    "position": {
+      "x": 33174,
+      "y": 31801,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "mirabell.json"
+  },
+  "miraia": {
+    "position": {
+      "x": 33238,
+      "y": 32483,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "miraia.json"
+  },
+  "mortimer": {
+    "position": {
+      "x": 32499,
+      "y": 31626,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "mortimer.json"
+  },
+  "morun": {
+    "position": {
+      "x": 33240,
+      "y": 32393,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "morun.json"
+  },
+  "mugluf": {
+    "position": {
+      "x": 33220,
+      "y": 32416,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "mugluf.json"
+  },
+  "muriel": {
+    "position": {
+      "x": 32296,
+      "y": 32263,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "muriel.json"
+  },
+  "muzir": {
+    "position": {
+      "x": 33222,
+      "y": 32390,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "muzir.json"
+  },
+  "myra": {
+    "position": {
+      "x": 32580,
+      "y": 32751,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "myra.json"
+  },
+  "nahbob": {
+    "position": {
+      "x": 33104,
+      "y": 32520,
+      "z": 2
+    },
+    "enabled": true,
+    "definition": "nahbob.json"
+  },
+  "nelliem": {
+    "position": {
+      "x": 32883,
+      "y": 32086,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "nelliem.json"
+  },
+  "nemal": {
+    "position": {
+      "x": 32615,
+      "y": 32108,
+      "z": 10
+    },
+    "enabled": true,
+    "definition": "nemal.json"
+  },
+  "nezil": {
+    "position": {
+      "x": 32661,
+      "y": 31912,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "nezil.json"
+  },
+  "nielsonbigfoot": {
+    "position": {
+      "x": 32163,
+      "y": 31469,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "nielsonbigfoot.json"
+  },
+  "noodles": {
+    "position": {
+      "x": 32315,
+      "y": 32178,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "noodles.json"
+  },
+  "norbert": {
+    "position": {
+      "x": 32953,
+      "y": 32103,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "norbert.json"
+  },
+  "norf": {
+    "position": {
+      "x": 32346,
+      "y": 32363,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "norf.json"
+  },
+  "norma": {
+    "position": {
+      "x": 32098,
+      "y": 32180,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "norma.json"
+  },
+  "nydala": {
+    "position": {
+      "x": 32327,
+      "y": 31827,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "nydala.json"
+  },
+  "obi": {
+    "position": {
+      "x": 32109,
+      "y": 32204,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "obi.json"
+  },
+  "odemara": {
+    "position": {
+      "x": 33015,
+      "y": 32058,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "odemara.json"
+  },
+  "oldadall": {
+    "position": {
+      "x": 32628,
+      "y": 32772,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "oldadall.json"
+  },
+  "olddragon": {
+    "position": {
+      "x": 32796,
+      "y": 31557,
+      "z": 2
+    },
+    "enabled": true,
+    "definition": "olddragon.json"
+  },
+  "oldrak": {
+    "position": {
+      "x": 32816,
+      "y": 32260,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "oldrak.json"
+  },
+  "olrik": {
+    "position": {
+      "x": 32675,
+      "y": 31698,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "olrik.json"
+  },
+  "omur": {
+    "position": {
+      "x": 33228,
+      "y": 32416,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "omur.json"
+  },
+  "oracle": {
+    "position": {
+      "x": 32104,
+      "y": 32190,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "oracle.json"
+  },
+  "orcking": {
+    "position": {
+      "x": 32983,
+      "y": 31728,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "orcking.json"
+  },
+  "ormuhn": {
+    "position": {
+      "x": 33160,
+      "y": 32810,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "ormuhn.json"
+  },
+  "oswald": {
+    "position": {
+      "x": 32381,
+      "y": 32220,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "oswald.json"
+  },
+  "padreia": {
+    "position": {
+      "x": 32300,
+      "y": 31816,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "padreia.json"
+  },
+  "partos": {
+    "position": {
+      "x": 32323,
+      "y": 32280,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "partos.json"
+  },
+  "pemaret": {
+    "position": {
+      "x": 33287,
+      "y": 31956,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "pemaret.json"
+  },
+  "penny": {
+    "position": {
+      "x": 32315,
+      "y": 31936,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "penny.json"
+  },
+  "perac": {
+    "position": {
+      "x": 32295,
+      "y": 31784,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "perac.json"
+  },
+  "perod": {
+    "position": {
+      "x": 32635,
+      "y": 32739,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "perod.json"
+  },
+  "petros": {
+    "position": {
+      "x": 33289,
+      "y": 32481,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "petros.json"
+  },
+  "phillip": {
+    "position": {
+      "x": 32369,
+      "y": 31764,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "phillip.json"
+  },
+  "pino": {
+    "position": {
+      "x": 33192,
+      "y": 31783,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "pino.json"
+  },
+  "prisoner": {
+    "position": {
+      "x": 32393,
+      "y": 32137,
+      "z": 13
+    },
+    "enabled": true,
+    "definition": "prisoner.json"
+  },
+  "puffels": {
+    "position": {
+      "x": 33269,
+      "y": 31850,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "puffels.json"
+  },
+  "pydar": {
+    "position": {
+      "x": 32655,
+      "y": 31893,
+      "z": 11
+    },
+    "enabled": true,
+    "definition": "pydar.json"
+  },
+  "queen": {
+    "position": {
+      "x": 32315,
+      "y": 31753,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "queen.json"
+  },
+  "quentin": {
+    "position": {
+      "x": 32369,
+      "y": 32239,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "quentin.json"
+  },
+  "quero": {
+    "position": {
+      "x": 32390,
+      "y": 32220,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "quero.json"
+  },
+  "rachel": {
+    "position": {
+      "x": 32343,
+      "y": 31828,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "rachel.json"
+  },
+  "rahkem": {
+    "position": {
+      "x": 33194,
+      "y": 32848,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "rahkem.json"
+  },
+  "rashid": {
+    "position": {
+      "x": 32369,
+      "y": 32241,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "rashid.json"
+  },
+  "ratamari": {
+    "position": {
+      "x": 33036,
+      "y": 32625,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ratamari.json"
+  },
+  "ray": {
+    "position": {
+      "x": 32621,
+      "y": 32747,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ray.json"
+  },
+  "razan": {
+    "position": {
+      "x": 33239,
+      "y": 32409,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "razan.json"
+  },
+  "riddler": {
+    "position": {
+      "x": 32479,
+      "y": 31902,
+      "z": 2
+    },
+    "enabled": true,
+    "definition": "riddler.json"
+  },
+  "robin": {
+    "position": {
+      "x": 32287,
+      "y": 32252,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "robin.json"
+  },
+  "roderick": {
+    "position": {
+      "x": 32672,
+      "y": 31699,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "roderick.json"
+  },
+  "rodney": {
+    "position": {
+      "x": 32971,
+      "y": 32041,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "rodney.json"
+  },
+  "rokyn": {
+    "position": {
+      "x": 33021,
+      "y": 32053,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "rokyn.json"
+  },
+  "romella": {
+    "position": {
+      "x": 32913,
+      "y": 32117,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "romella.json"
+  },
+  "rose": {
+    "position": {
+      "x": 32971,
+      "y": 32034,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "rose.json"
+  },
+  "rowenna": {
+    "position": {
+      "x": 32324,
+      "y": 31794,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "rowenna.json"
+  },
+  "rudolph": {
+    "position": {
+      "x": 33212,
+      "y": 31812,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "rudolph.json"
+  },
+  "sam": {
+    "position": {
+      "x": 32360,
+      "y": 32199,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "sam.json"
+  },
+  "sandra": {
+    "position": {
+      "x": 33258,
+      "y": 31840,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "sandra.json"
+  },
+  "santaclaus": {
+    "position": {
+      "x": 32369,
+      "y": 32241,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "santaclaus.json"
+  },
+  "sarina": {
+    "position": {
+      "x": 32334,
+      "y": 31808,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "sarina.json"
+  },
+  "scott": {
+    "position": {
+      "x": 32138,
+      "y": 31659,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "scott.json"
+  },
+  "seymour": {
+    "position": {
+      "x": 32103,
+      "y": 32195,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "seymour.json"
+  },
+  "shalmar": {
+    "position": {
+      "x": 33221,
+      "y": 32408,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "shalmar.json"
+  },
+  "shanar": {
+    "position": {
+      "x": 32657,
+      "y": 31655,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "shanar.json"
+  },
+  "shauna": {
+    "position": {
+      "x": 32384,
+      "y": 31778,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "shauna.json"
+  },
+  "sherry": {
+    "position": {
+      "x": 32390,
+      "y": 32241,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "sherry.json"
+  },
+  "shiantis": {
+    "position": {
+      "x": 32890,
+      "y": 32086,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "shiantis.json"
+  },
+  "shiriel": {
+    "position": {
+      "x": 32670,
+      "y": 31657,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "shiriel.json"
+  },
+  "shirith": {
+    "position": {
+      "x": 32646,
+      "y": 31655,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "shirith.json"
+  },
+  "sigurd": {
+    "position": {
+      "x": 32626,
+      "y": 31923,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "sigurd.json"
+  },
+  "simon": {
+    "position": {
+      "x": 32186,
+      "y": 32468,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "simon.json"
+  },
+  "skjaar": {
+    "position": {
+      "x": 32450,
+      "y": 32038,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "skjaar.json"
+  },
+  "smiley": {
+    "position": {
+      "x": 32979,
+      "y": 32087,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "smiley.json"
+  },
+  "snakeeye": {
+    "position": {
+      "x": 32657,
+      "y": 32190,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "snakeeye.json"
+  },
+  "soullost": {
+    "position": {
+      "x": 32209,
+      "y": 31924,
+      "z": 12
+    },
+    "enabled": true,
+    "definition": "soullost.json"
+  },
+  "soultainted": {
+    "position": {
+      "x": 32216,
+      "y": 31927,
+      "z": 12
+    },
+    "enabled": true,
+    "definition": "soultainted.json"
+  },
+  "soultortured": {
+    "position": {
+      "x": 32207,
+      "y": 31928,
+      "z": 12
+    },
+    "enabled": true,
+    "definition": "soultortured.json"
+  },
+  "spooky": {
+    "position": {
+      "x": 32191,
+      "y": 31811,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "spooky.json"
+  },
+  "stranger": {
+    "position": {
+      "x": 32910,
+      "y": 32077,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "stranger.json"
+  },
+  "stutch": {
+    "position": {
+      "x": 32310,
+      "y": 32170,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "stutch.json"
+  },
+  "suzy": {
+    "position": {
+      "x": 32320,
+      "y": 32258,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "suzy.json"
+  },
+  "sylvester": {
+    "position": {
+      "x": 32897,
+      "y": 32145,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "sylvester.json"
+  },
+  "talesia": {
+    "position": {
+      "x": 32979,
+      "y": 32035,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "talesia.json"
+  },
+  "talphion": {
+    "position": {
+      "x": 32563,
+      "y": 31894,
+      "z": 12
+    },
+    "enabled": true,
+    "definition": "talphion.json"
+  },
+  "tandros": {
+    "position": {
+      "x": 32621,
+      "y": 32739,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "tandros.json"
+  },
+  "tesha": {
+    "position": {
+      "x": 33135,
+      "y": 32821,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "tesha.json"
+  },
+  "tezila": {
+    "position": {
+      "x": 32657,
+      "y": 31922,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "tezila.json"
+  },
+  "thanita": {
+    "position": {
+      "x": 32535,
+      "y": 31773,
+      "z": 1
+    },
+    "enabled": true,
+    "definition": "thanita.json"
+  },
+  "thomas": {
+    "position": {
+      "x": 33256,
+      "y": 31838,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "thomas.json"
+  },
+  "tibra": {
+    "position": {
+      "x": 32318,
+      "y": 31783,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "tibra.json"
+  },
+  "tim": {
+    "position": {
+      "x": 32428,
+      "y": 32226,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "tim.json"
+  },
+  "timur": {
+    "position": {
+      "x": 32191,
+      "y": 32443,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "timur.json"
+  },
+  "todd": {
+    "position": {
+      "x": 32363,
+      "y": 32210,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "todd.json"
+  },
+  "tokel": {
+    "position": {
+      "x": 32256,
+      "y": 32056,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "tokel.json"
+  },
+  "tom": {
+    "position": {
+      "x": 32085,
+      "y": 32199,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "tom.json"
+  },
+  "topsy": {
+    "position": {
+      "x": 32415,
+      "y": 32170,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "topsy.json"
+  },
+  "tothdral": {
+    "position": {
+      "x": 33148,
+      "y": 32867,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "tothdral.json"
+  },
+  "trimegis": {
+    "position": {
+      "x": 32307,
+      "y": 32185,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "trimegis.json"
+  },
+  "trisha": {
+    "position": {
+      "x": 32348,
+      "y": 31748,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "trisha.json"
+  },
+  "tulf": {
+    "position": {
+      "x": 32586,
+      "y": 31928,
+      "z": 3
+    },
+    "enabled": true,
+    "definition": "tulf.json"
+  },
+  "turvy": {
+    "position": {
+      "x": 32414,
+      "y": 32177,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "turvy.json"
+  },
+  "ubaid": {
+    "position": {
+      "x": 33046,
+      "y": 32622,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ubaid.json"
+  },
+  "ukea": {
+    "position": {
+      "x": 32651,
+      "y": 31665,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ukea.json"
+  },
+  "ulrik": {
+    "position": {
+      "x": 32282,
+      "y": 32056,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ulrik.json"
+  },
+  "umar": {
+    "position": {
+      "x": 33102,
+      "y": 32531,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "umar.json"
+  },
+  "urkalio": {
+    "position": {
+      "x": 32913,
+      "y": 32081,
+      "z": 10
+    },
+    "enabled": true,
+    "definition": "urkalio.json"
+  },
+  "ursula": {
+    "position": {
+      "x": 33268,
+      "y": 31849,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "ursula.json"
+  },
+  "uso": {
+    "position": {
+      "x": 32580,
+      "y": 32756,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "uso.json"
+  },
+  "ustan": {
+    "position": {
+      "x": 32580,
+      "y": 32757,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "ustan.json"
+  },
+  "uzgod": {
+    "position": {
+      "x": 32664,
+      "y": 31894,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "uzgod.json"
+  },
+  "uzon": {
+    "position": {
+      "x": 32537,
+      "y": 31836,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "uzon.json"
+  },
+  "velvet": {
+    "position": {
+      "x": 32943,
+      "y": 32104,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "velvet.json"
+  },
+  "vera": {
+    "position": {
+      "x": 32138,
+      "y": 31672,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "vera.json"
+  },
+  "vladruc": {
+    "position": {
+      "x": 32976,
+      "y": 32079,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "vladruc.json"
+  },
+  "wally": {
+    "position": {
+      "x": 32566,
+      "y": 32019,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "wally.json"
+  },
+  "walter": {
+    "position": {
+      "x": 32338,
+      "y": 32278,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "walter.json"
+  },
+  "warbert": {
+    "position": {
+      "x": 32935,
+      "y": 32141,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "warbert.json"
+  },
+  "willard": {
+    "position": {
+      "x": 33214,
+      "y": 31793,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "willard.json"
+  },
+  "william": {
+    "position": {
+      "x": 32314,
+      "y": 31802,
+      "z": 8
+    },
+    "enabled": true,
+    "definition": "william.json"
+  },
+  "willie": {
+    "position": {
+      "x": 32047,
+      "y": 32204,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "willie.json"
+  },
+  "wyat": {
+    "position": {
+      "x": 32325,
+      "y": 32276,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "wyat.json"
+  },
+  "wyda": {
+    "position": {
+      "x": 32726,
+      "y": 31980,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "wyda.json"
+  },
+  "xed": {
+    "position": {
+      "x": 32904,
+      "y": 32117,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "xed.json"
+  },
+  "xodet": {
+    "position": {
+      "x": 32399,
+      "y": 32222,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "xodet.json"
+  },
+  "yaman": {
+    "position": {
+      "x": 33045,
+      "y": 32620,
+      "z": 2
+    },
+    "enabled": true,
+    "definition": "yaman.json"
+  },
+  "yanni": {
+    "position": {
+      "x": 32909,
+      "y": 32111,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "yanni.json"
+  },
+  "yberius": {
+    "position": {
+      "x": 32961,
+      "y": 32076,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "yberius.json"
+  },
+  "yoem": {
+    "position": {
+      "x": 33305,
+      "y": 31966,
+      "z": 7
+    },
+    "enabled": true,
+    "definition": "yoem.json"
+  },
+  "yulas": {
+    "position": {
+      "x": 33000,
+      "y": 32065,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "yulas.json"
+  },
+  "zaidal": {
+    "position": {
+      "x": 32621,
+      "y": 32747,
+      "z": 5
+    },
+    "enabled": true,
+    "definition": "zaidal.json"
+  },
+  "zebron": {
+    "position": {
+      "x": 32931,
+      "y": 32071,
+      "z": 9
+    },
+    "enabled": true,
+    "definition": "zebron.json"
+  },
+  "zerbrus": {
+    "position": {
+      "x": 32022,
+      "y": 32203,
+      "z": 6
+    },
+    "enabled": true,
+    "definition": "zerbrus.json"
+  },
+  "zoltan": {
+    "position": {
+      "x": 33268,
+      "y": 31849,
+      "z": 4
+    },
+    "enabled": true,
+    "definition": "zoltan.json"
   }
 }

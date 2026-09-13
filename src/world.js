@@ -45,6 +45,10 @@ const World = function(worldSize) {
   // The handler for combat
   this.combatHandler = new CombatHandler();
   
+  // Warnibia war systems
+  const WarSystem = require("./systems/war-system");
+  this.warnibia = new WarSystem();
+  
   // Delegate and expose these functions
   this.getSpectatingChunks = this.lattice.getSpectatingChunks.bind(this.lattice);
   this.findAvailableTile = this.lattice.findAvailableTile.bind(this.lattice);

@@ -305,7 +305,7 @@ ConversationHandler.prototype.__loadScript = function(script) {
    */
 
   // Does not exist
-  if(script === null) {
+  if(!script) {
     return;
   }
 

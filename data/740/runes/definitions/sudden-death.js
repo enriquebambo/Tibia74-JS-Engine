@@ -1,3 +1,5 @@
+const Position = requireModule("position");
+
 module.exports = function suddenDeath(source, target) {
 
   /*
@@ -5,17 +7,22 @@ module.exports = function suddenDeath(source, target) {
    * Code that handles the sudden death rune
    */
 
-  // If no monsters on the tile
-  if(target.monsters.size === 0) {
-    return false;
-  }
-
   process.gameServer.world.sendDistanceEffect(source.position, target.position, CONST.EFFECT.PROJECTILE.DEATH);
   process.gameServer.world.sendMagicEffect(target.position, CONST.EFFECT.MAGIC.MORTAREA);
 
-  // Do damage 
+  // Calculate damage based on level and magic level
+  let level = source.skills.getSkillLevel(CONST.PROPERTIES.EXPERIENCE);
+  let magicLevel = source.getLevel();
+  let damage = Math.floor((level * 0.5) + (magicLevel * 2.0));
+  damage = Math.max(100, Math.min(600, damage));
+
+  // Damage all players/monsters on the tile
+  target.players.forEach(function(player) {
+    player.decreaseHealth(source, damage);
+  });
+
   target.monsters.forEach(function(monster) {
-      process.gameServer.world.__damageEntity(source, monster, 10);
+    monster.decreaseHealth(source, damage);
   });
 
   return true;

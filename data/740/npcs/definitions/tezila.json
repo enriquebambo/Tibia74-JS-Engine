@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Tezila",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 160,
+      "details": {
+        "head": 3,
+        "body": 92,
+        "legs": 110,
+        "feet": 115
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 2,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32657,
+      "y": 31922,
+      "z": 9
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

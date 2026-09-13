@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Ashtamor",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 130,
+      "details": {
+        "head": 19,
+        "body": 114,
+        "legs": 76,
+        "feet": 114
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 1,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 32958,
+      "y": 32088,
+      "z": 6
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

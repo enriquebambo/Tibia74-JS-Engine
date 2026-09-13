@@ -127,6 +127,10 @@ UseHandler.prototype.handleItemUse = function(packet) {
 
   }
 
+  if(item.isRune()) {
+    return item.handleRuneUse(this.__player, packet.which, packet.index);
+  }
+
 }
 
 UseHandler.prototype.handleTileUse = function(tile) {

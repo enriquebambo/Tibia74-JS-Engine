@@ -63,10 +63,122 @@
       "START": "08:00"
     },
     "SPAWNS": {
-      "ENABLED": false
+      "ENABLED": true
     },
     "NPCS": {
-      "ENABLED": false
+      "ENABLED": true
+    }
+  },
+  "WARNIBIA": {
+    "CHARACTER_CREATION": {
+      "LEVEL": 20,
+      "EXPERIENCE": 98800,
+      "HP": 250,
+      "MANA": 200,
+      "MAGIC_LEVEL": 40,
+      "SKILLS": {
+        "melee": 60,
+        "distance": 60,
+        "shielding": 60,
+        "fishing": 0
+      },
+      "CAPACITY": 5000,
+      "MOVEMENT_SPEED": 1020
+    },
+    "SPAWN_PROTECTION": {
+      "ENABLED": true,
+      "DURATION_SECONDS": 5,
+      "MESSAGE": "You are under spawn protection for %s seconds.",
+      "ATTACK_BLOCKED_MESSAGE": "This player is under spawn protection!"
+    },
+    "SUPPLIES": {
+      "ENABLED": true,
+      "REFILL_ON_DEATH": true,
+      "suddenDeathRune": { "itemId": 2268, "count": 100 },
+      "ultimateHealingRune": { "itemId": 2273, "count": 100 },
+      "magicWallRune": { "itemId": 2293, "count": 100 },
+      "wildGrowthRune": { "itemId": 2276, "count": 100 },
+      "manaFluid": { "itemId": 2006, "count": 100 },
+      "crystalCoin": { "itemId": 2152, "count": 100 }
+    },
+    "EQUIPMENT": {
+      "ENABLED": true,
+      "AUTO_EQUIP": true,
+      "helmet": { "itemId": 3387 },
+      "armor": { "itemId": 3389 },
+      "legs": { "itemId": 3390 },
+      "boots": { "itemId": 3391 },
+      "shield": { "itemId": 3388 },
+      "weapon": { "itemId": 3402 },
+      "amulet": { "itemId": 3327 },
+      "backpack": { "itemId": 1998 }
+    },
+    "FORMULAS": {
+      "SUDDEN_DEATH": {
+        "LEVEL_FACTOR": 0.5,
+        "MAGIC_LEVEL_FACTOR": 2.0,
+        "MIN_DAMAGE": 100,
+        "MAX_DAMAGE": 600
+      },
+      "ULTIMATE_HEALING": {
+        "LEVEL_FACTOR": 10,
+        "MAGIC_LEVEL_FACTOR": 10,
+        "MIN_HEALING": 100,
+        "MAX_HEALING": 800
+      },
+      "PVP_EXP": {
+        "BASE_EXP": 500,
+        "LEVEL_RATIO_DIVISOR": 1.0
+      }
+    },
+    "KILL_STREAK": {
+      "ENABLED": true,
+      "WHITE_SKULL_KILLS": 3,
+      "RED_SKULL_KILLS": 5,
+      "BLACK_SKULL_KILLS": 10
+    },
+    "ARENA": {
+      "ROTATION_DURATION_SECONDS": 1800,
+      "ROTATION_ANNOUNCE_SECONDS": [300, 60],
+      "ORDER": ["thais", "carlin", "venore", "edron"],
+      "SPAWNS": {
+        "thais": [
+          { "x": 32369, "y": 32241, "z": 8 },
+          { "x": 32388, "y": 32238, "z": 8 },
+          { "x": 32355, "y": 32215, "z": 8 }
+        ],
+        "carlin": [
+          { "x": 32360, "y": 31782, "z": 8 },
+          { "x": 32344, "y": 31782, "z": 8 },
+          { "x": 32355, "y": 31810, "z": 8 }
+        ],
+        "venore": [
+          { "x": 32957, "y": 32076, "z": 8 },
+          { "x": 32953, "y": 32070, "z": 8 },
+          { "x": 32935, "y": 32050, "z": 8 }
+        ],
+        "edron": [
+          { "x": 33217, "y": 31814, "z": 8 },
+          { "x": 33210, "y": 31800, "z": 8 },
+          { "x": 33170, "y": 31810, "z": 8 }
+        ]
+      }
+    },
+    "PERMISSIONS": {
+      "PLAYER": 0,
+      "GM": 1,
+      "ADMIN": 2
+    },
+    "PVP": {
+      "ENABLED": true,
+      "NO_RED_SKULL": true,
+      "NO_FRAG_LIMIT": true,
+      "NO_UNJUSTIFIED_KILL": true,
+      "NO_CRIMINAL_STATUS": true
+    },
+    "TIMERS": {
+      "MAGIC_WALL_SECONDS": 20,
+      "WILD_GROWTH_SECONDS": 45
     }
   }
 }

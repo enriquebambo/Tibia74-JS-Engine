@@ -1,14 +1,17 @@
-const Condition = requireModule("condition");
+const Formulas = requireModule("formulas");
 
-module.exports = function spellLight(properties) {
+module.exports = function light(source, target) {
 
-  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.MAGIC_BLUE);
-  this.sayEmote("Parva Lux!", CONST.COLOR.SKYBLUE);
+  /*
 
-  if(!this.addCondition(Condition.prototype.LIGHT, 5000, 1)) {
-    return 0;
-  }
+   * Function light
 
-  return 50;
+   * Code that handles the light spell
 
-}
+   */
+
+  process.gameServer.world.sendMagicEffect(source.position, CONST.EFFECT.MAGIC.ENERGY);
+
+  return 1000;
+
+};

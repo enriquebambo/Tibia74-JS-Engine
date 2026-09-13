@@ -1,0 +1,50 @@
+{
+  "creatureStatistics": {
+    "name": "Beatrice",
+    "health": 100,
+    "maxHealth": 100,
+    "mana": 0,
+    "maxMana": 0,
+    "attack": 5,
+    "attackSlowness": 1000,
+    "defense": 5,
+    "speed": 100,
+    "outfit": {
+      "id": 136,
+      "details": {
+        "head": 96,
+        "body": 102,
+        "legs": 69,
+        "feet": 95
+      }
+    }
+  },
+  "behaviour": {
+    "wanderRange": 3,
+    "openDoors": false,
+    "ignoreCharacters": true
+  },
+  "conversation": {
+    "position": {
+      "x": 33214,
+      "y": 31803,
+      "z": 6
+    },
+    "hearingRange": 4,
+    "keywords": {},
+    "trade": [],
+    "farewells": [
+      "bye",
+      "farewell"
+    ],
+    "greetings": [
+      "hello",
+      "hi"
+    ],
+    "sayings": {
+      "texts": [],
+      "slowness": 300,
+      "chance": 0.5
+    }
+  }
+}

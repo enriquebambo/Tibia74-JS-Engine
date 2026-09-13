@@ -19,9 +19,9 @@ CombatHandler.prototype.handleCombat = function(source) {
   // Reference the target
   let target = source.getTarget();
 
-  // Calculate the damage
-  let damage = source.calculateDamage();
-  let defense = target.calculateDefense();
+  // Calculate the damage using proper formulas
+  let damage = source.getAttack();
+  let defense = target.getDefense();
 
   // Get the unmitigated damage clamped
   let unmitigatedDamage = (damage - defense).clamp(0, target.getProperty(CONST.PROPERTIES.HEALTH));

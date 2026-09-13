@@ -1,22 +1,29 @@
 const Condition = requireModule("condition");
 
-module.exports = function cureBurning() {
+module.exports = function cureBurning(source, target) {
 
   /*
+
    * Function cureBurning
+
    * Spell to cure the burning condition from the player
+
    */
 
-  // Not burning
-  if(!this.conditions.has(Condition.prototype.BURNING)) {
-    this.sendCancelMessage("You are not burning.");
-    return 0;
+  if(!source.conditions || !source.conditions.has(Condition.prototype.BURNING)) {
+
+    source.sendCancelMessage("You are not burning.");
+
+    return 1000;
+
   }
- 
-  this.removeCondition(Condition.prototype.BURNING);
-  process.gameServer.world.sendMagicEffect(this.position, CONST.EFFECT.MAGIC.MAGIC_BLUE);
+
+  source.removeCondition(Condition.prototype.BURNING);
+
+  process.gameServer.world.sendMagicEffect(source.position, CONST.EFFECT.MAGIC.MAGIC_BLUE);
 
   // Return cooldown
+
   return 1000;
 
-}
+};

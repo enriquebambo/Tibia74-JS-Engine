@@ -5,37 +5,108 @@ const Item = requireModule("item");
 const Rune = function(id) {
 
   /*
+
    * Class Rune
+
    * Container for a corpse that inherits from a container
+
    */
 
   // Inherits from Item
+
   Item.call(this, id);
 
   // Set the initial charges from the otb metadata
+
   this.charges = this.getMaximumCharges();
- 
+
 }
 
 Rune.prototype = Object.create(Item.prototype);
+
 Rune.prototype.constructor = Rune;
 
 Rune.prototype.getMaximumCharges = function() {
 
   /*
+
    * Function Rune.getMaximumCharges
+
    * Returns the number of initial charges from the prototype definitions
+
    */
 
   // Read from the prototype
+
   let proto = this.getPrototype();
 
   // Check if the number of charges exists
+
   if(proto.properties.hasOwnProperty("charges")) {
+
     return Number(proto.properties.charges);
+
   }
 
   return 1;
+
+}
+
+Rune.prototype.isRune = function() {
+
+  return true;
+
+}
+
+Rune.prototype.handleRuneUse = function(player, where, index) {
+
+  /*
+
+   * Function Rune.handleRuneUse
+
+   * Handles using a rune from inventory or container
+
+   */
+
+  if(this.charges <= 0) {
+
+    player.sendCancelMessage("The rune is out of charges.");
+
+    return;
+
+  }
+
+  let target = player.getTarget();
+
+  if(target === null) {
+
+    target = player;
+
+  }
+
+  let runeDefinition = gameServer.database.getRune(this.id);
+
+  if(runeDefinition === null) {
+
+    player.sendCancelMessage("This rune has no effect.");
+
+    return;
+
+  }
+
+  let success = runeDefinition(player, target);
+
+  if(success === true) {
+
+    this.charges -= 1;
+
+    if(this.charges <= 0) {
+
+      player.containerManager.removeItemFromContainer(where, index, 1);
+
+    }
+
+  }
 
 }
 
